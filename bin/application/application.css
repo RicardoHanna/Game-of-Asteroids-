@@ -1,0 +1,33 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.pane {
+    -fx-background-image: url("image/Space.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-size: 900 506;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+
+#Points_Css{-fx-font-size: 32px;
+	-fx-font-family: "Arial Black";
+	-fx-fill: red;
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.label{
+	-fx-font-weight: bold;
+	-fx-text-fill: red;
+	
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+
+.button{-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+	-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button:hover{-fx-background-color: linear-gradient(#2A5058, #61a2b1);
+	
+}
